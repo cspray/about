@@ -270,13 +270,13 @@
                 <p class="content">
                   In the world of private placements our engineering team was tasked with something that traditional tech
                   advice guides you to not do; collect highly-sensitive Personally Identifiable Information. I'm talking about
-                  pieces of data like Social Security Numbers, Date of Births, Bank Accounts numbers, and other pieces of data
-                  you wouldn't want just anybody to get their hands on. We had outsourced this project multiple times and due
+                  pieces of data like Social Security Numbers, Date of Births, Bank Account numbers, and other pieces of data
+                  you wouldn't want just anybody to get their hands on. We had outsourced this storage multiple times and due
                   to many considerations it was decided the functionality needed to be brought in-house.
                 </p>
                 <p class="content">
-                  After reviewing possible storage possibilities we wound up choosing <a href="">Hashicorp's Vault</a> but we
-                  still needed a way to transparently store this data in Vault for both a Ruby and Java application. We wound
+                  After reviewing secure storage possibilities we wound up choosing <a href="https://www.vaultproject.io/">Hashicorp's Vault</a>
+                  but we still needed a way to transparently store this data in Vault for both a Ruby and Java application. We wound
                   up implementing a similar solution for both technologies. By hooking into the ORM's lifecycle listeners we
                   were able to store the encrypted value in Vault while replacing the value inserted into the database with a
                   token. Upon hydrating objects from the database we would conduct the opposite process and read in the value
