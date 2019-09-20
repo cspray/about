@@ -2,62 +2,429 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>About cspray</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css" />
+    <title>Charles Sprayberry Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" />
     <style>
-      .avatar {
+      header {
+        margin-bottom: 1em;
+      }
+      #bio-card {
         width: 256px;
-        margin: 0 auto 2em;
+        max-width: 256px;
+        margin: 0 auto;
+      }
+      #bio-card a {
+        display: block;
+        margin-bottom: 1em;
+      }
+      .section-subtitle {
+        border-bottom: 2px solid black;
       }
     </style>
+    <script src="https://kit.fontawesome.com/e0b4a7b997.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header class="section">
-      <h1 class="title is-1 has-text-centered">Charles Sprayberry</h1>
-      <div class="columns is-centered">
-        <div class="column is-half is-full-mobile">
-          <div class="level">
-            <div class="level-item has-text-centered">
-              <a class="link" href="https://blog.cspray.io">
-                Blog
-              </a>
-            </div>
-            <div class="level-item has-text-centered">
-              <a class="link" href="https://github.com/cspray">
-                GitHub
-              </a>
-            </div>
-            <div class="level-item has-text-centered">
-              <a class="link" href="https://stackoverflow.com/users/746010/charles-sprayberry">
-                Stack Overflow
-              </a>
-            </div>
-          </div>
+    <header>
+      <div class="level">
+        <div class="level-item">
+          <h1 class="title is-size-2">Charles Sprayberry</h1>
         </div>
       </div>
     </header>
 
-    <main class="section">
-      <div class="columns is-centered">
-        <div class="column is-half is-narrow is-full-mobile">
-          <figure class="image avatar">
-            <img src="https://www.gravatar.com/avatar/0fd2816e78f6a04d5f8ce0aba1cb42e6?s=256&d=identicon&r=PG" class="is-rounded" alt="Charles Sprayberry and his dog, Nick" />
-          </figure>
+    <main>
+      <div class="container">
+        <div class="columns is-multiline">
+          <div class="columnis-narrow">
+            <section id="bio-card">
+              <div class="card">
+                <div class="card-image">
+                  <figure>
+                    <img src="https://www.gravatar.com/avatar/0fd2816e78f6a04d5f8ce0aba1cb42e6?s=256&d=identicon&r=PG" alt="Charles Sprayberry and Nick" />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <a href="mailto:resume@cspray.io" class="is-clearfix">
+                    <span class="icon is-pulled-left">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                      <span class="is-pulled-right">
+                      resume@cspray.io
+                    </span>
+                  </a>
 
-          <p class="content">
-            My name is Charles Sprayberry, I am the Technical Lead at <a href="https://www.venture.co">VENTURE.co</a>, a technology
-            company headquartered in Burlington, VT, that builds a set of software to facilitate investments in the private
-            placement industry. When I am not writing software for my job I contribute to open source software and develop
-            asynchronous applications in PHP.
-          </p>
-          <p class="content">
-            I am married to a wonderful woman and take care of 3 awesome dogs. When I'm not writing software I like to
-            play video games, read books, and reduce my reliance on the surveillance economy.
-          </p>
-          <p class="content">
-            Thoughts are my own and not necessarily representative of my employer.
-          </p>
+                  <a href="https://blog.cspray.io" class="is-clearfix">
+                    <span class="icon is-pulled-left">
+                      <i class="fas fa-pencil-alt"></i>
+                    </span>
+                    <span class="is-pulled-right">
+                      blog.cspray.io
+                    </span>
+                  </a>
+
+                  <a href="https://github.com/cspray" class="is-clearfix">
+                    <span class="icon is-pulled-left">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span class="is-pulled-right">
+                      github.com
+                    </span>
+                  </a>
+
+                  <a href="https://stackoverflow.com/users/746010/charles-sprayberry" class="is-clearfix">
+                    <span class="icon is-pulled-left">
+                      <i class="fab fa-stack-overflow"></i>
+                    </span>
+                    <span class="is-pulled-right">
+                      stackoverflow.com
+                    </span>
+                  </a>
+
+                  <a href="https://www.linkedin.com/in/cspray/" class="is-clearfix">
+                    <span class="icon is-pulled-left">
+                      <i class="fab fa-linkedin"></i>
+                    </span>
+                    <span class="is-pulled-right">
+                      linkedin.com
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <div class="column">
+            <section class="section">
+              <h2 class="subtitle is-size-3 section-subtitle">Employment History</h2>
+
+              <h3 class="is-size-4">Designbook &amp; VENTURE.co</h3>
+
+              <div class="level">
+                <div class="level-left">
+                  <div class="level-item">
+                    Lead Web Application Developer
+                  </div>
+                  <div class="level-item">
+                    Mar 2015 - Current
+                  </div>
+                </div>
+
+                <div class="level-right">
+                  <div class="level-item">
+                    <div class="tags">
+                      <span class="tag">Java</span>
+                      <span class="tag">Ruby</span>
+                      <span class="tag">JavaScript</span>
+                      <span class="tag">PHP</span>
+                      <span class="tag">Python</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <p class="content">
+                In early 2015 I joined Designbook and about a year later we re-branded as VENTURE.co. I was the company's
+                first full-time software developer and I participated in the entire application development lifecycle;
+                both front-end and back end, systems administration, DevOps, project planning, prioritization and
+                guiding fellow developers. I oversaw many crucial projects that were critical to the success and
+                running of VENTURE.co, many of which I detail below in <a href="#notable-professional-projects">Notable Professional Projects</a>.
+              </p>
+
+              <hr>
+
+              <h3 class="is-size-4">Wyatt Investment Research</h3>
+              <div class="level">
+                <div class="level-left">
+                  <div class="level-item">
+                    Web Application Developer
+                  </div>
+
+                  <div class="level-item">
+                    Nov 2013 - Feb 2015
+                  </div>
+                </div>
+
+                <div class="level-right">
+                  <div class="level-item">
+                    <div class="tags">
+                      <span class="tag">PHP</span>
+                      <span class="tag">Ruby</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <p class="content">
+                In winter of 2013 I joined Wyatt Investment Research where I helped lead the transition from a legacy
+                CodeIgniter app to a new Ruby on Rails application. This entailed a challenging database migration as
+                well as allowing the company to continue processing payments through a very challenging and tumultuous
+                transition.
+              </p>
+
+              <hr>
+
+              <h3 class="is-size-4">MedForce</h3>
+              <div class="level">
+                <div class="level-left">
+                  <div class="level-item">
+                    Application Developer
+                  </div>
+
+                  <div class="level-item">
+                    Feb 2012 - Nov 2013
+                  </div>
+                </div>
+
+                <div class="level-right">
+                  <div class="level-item">
+                    <div class="tags">
+                      <span class="tag">PHP</span>
+                      <span class="tag">JavaScript</span>
+                      <span class="tag">SQL</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <p class="content">
+                In early 2012 I joined MedForce where I oversaw the maintenance of many legacy applications. While I was
+                there I cut my teeth on some pretty gnarly SQL statements and helped develop new features for clients.
+              </p>
+            </section>
+
+            <section class="section">
+              <h2 class="subtitle is-size-3 section-subtitle">About</h2>
+              <p class="content">
+                My name is Charles Sprayberry, I'm a software developer with an interest in unit testing, software architecture,
+                asynchronous programming, and Open Source Software. I'm the Lead Web Application Developer at <a href="https://venture.co">VENTURE.co</a>
+                where over the past 5~ years I have helped develop a suite of software to facilitate investments in private
+                placements (high net-worth investors putting money into private companies). Before that I was the application
+                developer at Wyatt Investment Research.
+              </p>
+              <p class="content">
+                I've developed software in Java, PHP, Ruby, JavaScript, and Python. I've utilized several different frameworks
+                including <a href="https://rubyonrails.org/">Ruby on Rails</a>, <a href="https://emberjs.com/">Ember</a>,
+                <a href="https://vaadin.com/">Vaadin</a>, <a href="https://symfony.com/">Symfony 4</a>, <a href="https://vuejs.org/">Vue</a>,
+                <a href="https://amphp.org/">Amp</a> and others. I'm a big fan of Test Driven Development and developing code
+                that adheres to <a href="https://en.wikipedia.org/wiki/SOLID">S.O.L.I.D.</a> principles. Before starting
+                my career as a software developer I primarily worked in food service. Including a stint<a href="https://newskete.org/">smoking
+                cheese for a monastery</a> and several years <a href="https://www.papajohns.com/">flipping pizzas for a big chain</a>.
+                For a short time I answered hundreds of phone calls per day at a teleconferencing center.
+              </p>
+
+              <p class="content">
+                When I am not writing software code I am spending time with my wife and our two dogs; Nick and Kate.
+              </p>
+            </section>
+
+            <section class="section">
+              <h2 id="notable-professional-projects" class="subtitle is-size-3 section-subtitle">Notable Professional projects</h2>
+              <article>
+                <div class="level">
+                  <div class="level-left">
+                    <div class="level-item">
+                      <h3 class="is-size-4">Mentored and guided team members</h3>
+                    </div>
+                  </div>
+
+                  <div class="level-right">
+                    <div class="level-item">
+                      <h4 class="is-size-5">VENTURE.co</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <p class="content">
+                  Easily the most significant contribution during my time at VENTURE.co was the ability to mentor and guide my
+                  fellow developers towards more understandable, simpler software solutions. By the time our current team
+                  was established I had been with the company for 2 years and developed a solid understanding of our
+                  business and the application stack that powered it. Being able to spread that business knowledge amongst
+                  the team and see that directly lead to more soundly designed code was incredibly gratifying... and productive
+                  for the company.
+                </p>
+                <p class="content">
+                  These interactions included code review, whiteboard designing sessions, sprint planning, debugging sessions,
+                  and, occasionally, an informal type of pair programming. Our team was distributed and these communications
+                  often involved a mixture of team members who were physically in the office and others who were remote; I would
+                  often split my time between the office and my home.
+                </p>
+              </article>
+
+              <hr>
+
+              <article>
+                <div class="level">
+                  <div class="level-left">
+                    <div class="level-item">
+                      <h3 class="is-size-4">Secure PII Storage</h3>
+                    </div>
+                  </div>
+
+                  <div class="level-right">
+                    <div class="level-item">
+                      <h4 class="is-size-5">VENTURE.co</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <p class="content">
+                  In the world of private placements our engineering team was tasked with something that traditional tech
+                  advice guides you to not do; collect highly-sensitive Personally Identifiable Information. I'm talking about
+                  pieces of data like Social Security Numbers, Date of Births, Bank Accounts numbers, and other pieces of data
+                  you wouldn't want just anybody to get their hands on. We had outsourced this project multiple times and due
+                  to many considerations it was decided the functionality needed to be brought in-house.
+                </p>
+                <p class="content">
+                  After reviewing possible storage possibilities we wound up choosing <a href="">Hashicorp's Vault</a> but we
+                  still needed a way to transparently store this data in Vault for both a Ruby and Java application. We wound
+                  up implementing a similar solution for both technologies. By hooking into the ORM's lifecycle listeners we
+                  were able to store the encrypted value in Vault while replacing the value inserted into the database with a
+                  token. Upon hydrating objects from the database we would conduct the opposite process and read in the value
+                  from Vault based on the stored token. This ensured that data at rest is stored in a secure, encrypted storage
+                  and reduced the possibility that if a database breach occurred that sensitive information would be lost.
+                </p>
+              </article>
+
+              <hr>
+
+              <article>
+                <div class="level">
+                  <div class="level-left">
+                    <div class="level-item">
+                      <h3 class="is-size-4">Developed escrow abstraction layer</h3>
+                    </div>
+                  </div>
+
+                  <div class="level-right">
+                    <div class="level-item">
+                      <h4 class="is-size-5">VENTURE.co</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <p class="content">
+                  A really important part of handling private placements is dealing with escrow; the process of many investors
+                  paying money into an account where it is held for a time until it is either refunded to the investor or
+                  the sponsor of the raise receives the funds. One of our first solutions for this included a third-party
+                  provider that was bought-out shortly after our live release which necessitated reimplementing the escrow
+                  functionality virtually as soon as it went live.
+                </p>
+
+                <p class="content">
+                  With the next implementation I designed a system that would allow the basic functionality of escrow to
+                  take place within our application and domain while allowing "escrow processors" to be developed according
+                  to an "interface", or as close you can get in Ruby. This system proved invaluable in ensuring that we
+                  incurred minimal technical costs due to volatility with integrators in this space.
+                </p>
+              </article>
+
+              <hr>
+
+              <article>
+                <div class="level">
+                  <div class="level-left">
+                    <div class="level-item">
+                      <h3 class="is-size-4">Developed chatbot and webhook system</h3>
+                    </div>
+                  </div>
+
+                  <div class="level-right">
+                    <div class="level-item">
+                      <h4 class="is-size-5">VENTURE.co</h4>
+                    </div>
+                  </div>
+                </div>
+                <p class="content">
+                  When VENTURE.co was getting started we were a small team and were primarily focused on customer facing functionality.
+                  This left certain administrator functionality not as polished as we would have otherwise liked. One of the
+                  issues faced was simply knowing when investors performed certain actions within the system. To faclitate this,
+                  and other operations, I developed a chatbot that authenticated with our application through an Oauth 2 flow
+                  as well as a webhook system that would send data about events triggered on our system with a simple HTTP POST
+                  request. This system proved invaluable during our ramp-up period with ensuring that administrators were
+                  properly notified when actions happened within the system as well as other helpful information fetching
+                  activities.
+                </p>
+              </article>
+
+              <hr>
+
+              <article>
+                <div class="level">
+                  <div class="level-left">
+                    <div class="level-item">
+                      <h3 class="is-size-4">Developed credit-card processing translation layer</h3>
+                    </div>
+                  </div>
+
+                  <div class="level-right">
+                    <div class="level-item">
+                      <h4 class="is-size-5">Wyatt Investment Research</h4>
+                    </div>
+                  </div>
+                </div>
+
+                <p class="content">
+                  When I arrived at Wyatt Investment Research the company was transitioning their app to Ruby on Rails.
+                  During this transition there was a hard requirement, with a strict deadline that our current custom-implemented
+                  credit card processing be transitioned to a new provider so that customer payments could be received
+                  and employees could be paid. It was decided that the existing application was too untested and I did
+                  not possess the knowledge needed for that level of refactor. Instead, I implemented a layer that sat
+                  between our application and the new credit card processor that ensured the old batch payment format
+                  was properly translated into the new processor's expected format and that the response was translated
+                  into something the legay app could work with. This proved to be critical during the transition period
+                  to ensure that customer payments continued to be received.
+                </p>
+              </article>
+            </section>
+
+            <section class="section">
+              <h2 class="is-size-3 subtitle section-subtitle">Personal projects &amp; OSS Contributions</h2>
+
+              <p class="content">
+                I have been active in the OSS community, either through creating my own projects or contributing back to
+                the libraries I use in those projects, since I started my programming career. The projects below are some
+                of those I have worked on fairly recently and represent my most recent thoughts on software development.
+              </p>
+
+              <h3 class="is-size-4"><a href="https://labrador-kennel.io">Labrador Kennel</a></h3>
+
+              <p class="content">
+                I have been mildly infatuated with creating my own framework since I realized what frameworks were. While
+                I would necessarily <em>recommend</em> that people create their own framework I find it enjoyable and it
+                has allow me to learn a lot about programming that I can apply virtually any time that I'm designing a
+                system. Labrador Kennel represents the 3rd generation of my own framework and is meant to be a suite of
+                PHP libraries and packages that facilitate creating performant, secure applications using
+                <a href="https://amphp.org">Amp</a>.
+              </p>
+
+              <h3 class="is-size-4"><a href="https://github.com/cspray/yape">yape</a></h3>
+
+              <p class="content">
+                Yet Another PHP Enum. There are numerous examples of PHP libraries using class constants with scalar values
+                as a type of pseudo-enum. However, I wanted something that could have type-safety, method calls, and
+                generally to treat the concept of an enum as a first-class object in the PHP world. This library is a
+                code generator that will create a type-safe, object-backed enum for you.
+              </p>
+
+              <h3 class="is-size-4"><a href="https://github.com/cspray/websocket-commands">websocket-commands</a></h3>
+
+              <p class="content">
+                I have recently been doing some development with real-time status updates and other functionality that is
+                well-suited for websockets. I realized while building the app that the system for executing the commands
+                based on the client's websocket messages could be its own micro-framework and shared with the community.
+              </p>
+
+              <h3 class="is-size-4"><a href="https://github.com/amphp/phpunit-util">amphp/phpunit-util</a></h3>
+
+              <p class="content">
+                Being a big fan of Test Driven Development it was important to me that my asynchronous apps and libraries
+                be well tested. Testing asynchronous code has its own set of unique and interesting challenges relative to
+                testing blocking code. With the help of the maintainers of the amphp project I was able to design and
+                develop an AsyncTestCase implementation that greatly reduces the amount of boilerplate required for async
+                testing and has become the de facto test case for asynchronous code within Amp.
+              </p>
+            </section>
+          </div>
         </div>
       </div>
     </main>
