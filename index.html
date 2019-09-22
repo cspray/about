@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
   <head>
     <meta charset="utf-8" />
     <title>Charles Sprayberry Resume</title>
@@ -25,17 +25,21 @@
   </head>
   <body>
     <header>
-      <div class="level">
-        <div class="level-item">
-          <h1 class="title is-size-2">Charles Sprayberry</h1>
-        </div>
+      <div class="container">
+        <nav class="navbar">
+          <div class="navbar-brand">
+            <div class="navbar-item">
+              <h1 class="title is-size-2">Charles Sprayberry</h1>
+            </div>
+          </div>
+        </nav>
       </div>
     </header>
 
     <main>
       <div class="container">
         <div class="columns is-multiline">
-          <div class="columnis-narrow">
+          <div class="column is-3">
             <section id="bio-card">
               <div class="card">
                 <div class="card-image">
@@ -48,7 +52,7 @@
                     <span class="icon is-pulled-left">
                       <i class="fas fa-envelope"></i>
                     </span>
-                      <span class="is-pulled-right">
+                    <span class="is-pulled-right">
                       resume@cspray.io
                     </span>
                   </a>
@@ -91,134 +95,125 @@
                 </div>
               </div>
             </section>
+
+            <section id="tech-skills" class="section">
+              <h4 class="subtitle">Languages</h4>
+              <div class="tags are-medium">
+                <a href="https://php.net"><span class="tag">PHP</span></a>
+                <a href="https://nodejs.org"><span class="tag">Node.js</span></a>
+                <a href="https://openjdk.java.net/"><span class="tag">Java</span></a>
+                <a href="https://www.ruby-lang.org"><span class="tag">Ruby</span></a>
+                <a href="https://www.python.org"><span class="tag">Python</span></a>
+                <a href="https://www.lua.org/"><span class="tag">Lua</span></a>
+              </div>
+
+              <h4 class="subtitle">Frameworks</h4>
+              <div class="tags are-medium">
+                <a href="https://symfony.com/"><span class="tag">Symfony 4</span></a>
+                <a href="https://amphp.org"><span class="tag">Amp</span></a>
+                <a href="https://vuejs.org"><span class="tag">Vue</span></a>
+                <a href="https://vaadin.com/"><span class="tag">Vaadin</span></a>
+                <a href="https://rubyonrails.org/"><span class="tag">Ruby on Rails</span></a>
+                <a href="https://emberjs.com/"><span class="tag">Ember.js</span></a>
+              </div>
+
+              <h4 class="subtitle">Other Technologies</h4>
+              <div class="tags are-medium">
+                <a href="https://git-scm.com/"><span class="tag">Git</span></a>
+                <a href="https://www.postgresql.org/"><span class="tag">PostgreSQL</span></a>
+                <a href="https://github.com"><span class="tag">GitHub</span></a>
+                <a href="https://heroku.com"><span class="tag">Heroku</span></a>
+                <a href="https://aws.amazon.com/"><span class="tag">AWS</span></a>
+                <a href="https://www.docker.com/"><span class="tag">Docker</span></a>
+                <a href="https://www.vaultproject.io/"><span class="tag">Vault</span></a>
+              </div>
+            </section>
           </div>
 
           <div class="column">
-            <section class="section">
+            <div class="content">
+              Hi, I'm a developer who's passionate about PHP, software architecture, unit testing, and creating
+              maintainable applications that deliver business value. I am currently looking for a senior-level position
+              working in a modern PHP codebase.
+            </div>
+
+            <section id="employment-history" class="section">
               <h2 class="subtitle is-size-3 section-subtitle">Employment History</h2>
 
-              <h3 class="is-size-4">Designbook &amp; VENTURE.co</h3>
+              <article id="designbook-ventureco">
+                <h3 class="is-size-4">Designbook &amp; VENTURE.co</h3>
 
-              <div class="level">
-                <div class="level-left">
-                  <div class="level-item">
-                    Lead Web Application Developer
-                  </div>
-                  <div class="level-item">
-                    Mar 2015 - Current
-                  </div>
-                </div>
-
-                <div class="level-right">
-                  <div class="level-item">
-                    <div class="tags">
-                      <span class="tag">Java</span>
-                      <span class="tag">Ruby</span>
-                      <span class="tag">JavaScript</span>
-                      <span class="tag">PHP</span>
-                      <span class="tag">Python</span>
+                <div class="level">
+                  <div class="level-left">
+                    <div class="level-item">
+                      Lead Web Application Developer
+                    </div>
+                    <div class="level-item">
+                      Mar 2015 - Current
                     </div>
                   </div>
                 </div>
-              </div>
 
-              <p class="content">
-                In early 2015 I joined Designbook and about a year later we re-branded as VENTURE.co. I was the company's
-                first full-time software developer and I participated in the entire application development lifecycle;
-                both front-end and back end, systems administration, DevOps, project planning, prioritization and
-                guiding fellow developers. I oversaw many crucial projects that were critical to the success and
-                running of VENTURE.co, many of which I detail below in <a href="#notable-professional-projects">Notable Professional Projects</a>.
-              </p>
+                <p class="content">
+                  In early 2015 I joined Designbook and about a year later we re-branded as VENTURE.co. I was the company's
+                  first full-time software developer and I participated in the entire application development lifecycle;
+                  both front-end and back end, systems administration, DevOps, project planning, prioritization and
+                  guiding fellow developers. I oversaw many crucial projects that were critical to the success and
+                  running of VENTURE.co, many of which I detail below in <a href="#notable-professional-projects">Notable Professional Projects</a>.
+                </p>
+              </article>
 
               <hr>
 
-              <h3 class="is-size-4">Wyatt Investment Research</h3>
-              <div class="level">
-                <div class="level-left">
-                  <div class="level-item">
-                    Web Application Developer
-                  </div>
+              <article id="wyatt-investment-research">
+                <h3 class="is-size-4">Wyatt Investment Research</h3>
+                <div class="level">
+                  <div class="level-left">
+                    <div class="level-item">
+                      Web Application Developer
+                    </div>
 
-                  <div class="level-item">
-                    Nov 2013 - Feb 2015
-                  </div>
-                </div>
-
-                <div class="level-right">
-                  <div class="level-item">
-                    <div class="tags">
-                      <span class="tag">PHP</span>
-                      <span class="tag">Ruby</span>
+                    <div class="level-item">
+                      Nov 2013 - Feb 2015
                     </div>
                   </div>
                 </div>
-              </div>
 
-              <p class="content">
-                In winter of 2013 I joined Wyatt Investment Research where I helped lead the transition from a legacy
-                CodeIgniter app to a new Ruby on Rails application. This entailed a challenging database migration as
-                well as allowing the company to continue processing payments through a very challenging and tumultuous
-                transition.
-              </p>
+                <p class="content">
+                  In winter of 2013 I joined Wyatt Investment Research where I helped lead the transition from a legacy
+                  CodeIgniter app to a new Ruby on Rails application. This entailed a challenging database migration as
+                  well as allowing the company to continue processing payments through a very challenging and tumultuous
+                  transition.
+                </p>
+              </article>
 
               <hr>
 
-              <h3 class="is-size-4">MedForce</h3>
-              <div class="level">
-                <div class="level-left">
-                  <div class="level-item">
-                    Application Developer
-                  </div>
+              <article id="medforce">
+                <h3 class="is-size-4">MedForce</h3>
+                <div class="level">
+                  <div class="level-left">
+                    <div class="level-item">
+                      Application Developer
+                    </div>
 
-                  <div class="level-item">
-                    Feb 2012 - Nov 2013
-                  </div>
-                </div>
-
-                <div class="level-right">
-                  <div class="level-item">
-                    <div class="tags">
-                      <span class="tag">PHP</span>
-                      <span class="tag">JavaScript</span>
-                      <span class="tag">SQL</span>
+                    <div class="level-item">
+                      Feb 2012 - Nov 2013
                     </div>
                   </div>
                 </div>
-              </div>
 
-              <p class="content">
-                In early 2012 I joined MedForce where I oversaw the maintenance of many legacy applications. While I was
-                there I cut my teeth on some pretty gnarly SQL statements and helped develop new features for clients.
-              </p>
+                <p class="content">
+                  In early 2012 I joined MedForce where I oversaw the maintenance of many legacy applications. While I was
+                  there I cut my teeth on some pretty gnarly SQL statements and helped develop new features for clients.
+                  The custom implementation taught the importance of clean separation of concerns when building a complex
+                  web app.
+                </p>
+              </article>
             </section>
 
-            <section class="section">
-              <h2 class="subtitle is-size-3 section-subtitle">About</h2>
-              <p class="content">
-                My name is Charles Sprayberry, I'm a software developer with an interest in unit testing, software architecture,
-                asynchronous programming, and Open Source Software. I'm the Lead Web Application Developer at <a href="https://venture.co">VENTURE.co</a>
-                where over the past 5~ years I have helped develop a suite of software to facilitate investments in private
-                placements (high net-worth investors putting money into private companies). Before that I was the application
-                developer at Wyatt Investment Research.
-              </p>
-              <p class="content">
-                I've developed software in Java, PHP, Ruby, JavaScript, and Python. I've utilized several different frameworks
-                including <a href="https://rubyonrails.org/">Ruby on Rails</a>, <a href="https://emberjs.com/">Ember</a>,
-                <a href="https://vaadin.com/">Vaadin</a>, <a href="https://symfony.com/">Symfony 4</a>, <a href="https://vuejs.org/">Vue</a>,
-                <a href="https://amphp.org/">Amp</a> and others. I'm a big fan of Test Driven Development and developing code
-                that adheres to <a href="https://en.wikipedia.org/wiki/SOLID">S.O.L.I.D.</a> principles. Before starting
-                my career as a software developer I primarily worked in food service. Including a stint <a href="https://newskete.org/">smoking
-                cheese for a monastery</a> and several years <a href="https://www.papajohns.com/">flipping pizzas for a big chain</a>.
-                For a short time I answered hundreds of phone calls per day at a teleconferencing center.
-              </p>
-
-              <p class="content">
-                When I am not writing software code I am spending time with my wife and our two dogs; Nick and Kate.
-              </p>
-            </section>
-
-            <section class="section">
-              <h2 id="notable-professional-projects" class="subtitle is-size-3 section-subtitle">Notable Professional projects</h2>
+            <section id="notable-professional-projects" class="section">
+              <h2 class="subtitle is-size-3 section-subtitle">Notable Professional projects</h2>
               <article>
                 <div class="level">
                   <div class="level-left">
@@ -291,7 +286,7 @@
                 <div class="level">
                   <div class="level-left">
                     <div class="level-item">
-                      <h3 class="is-size-4">Developed escrow abstraction layer</h3>
+                      <h3 class="is-size-4">Escrow abstraction layer</h3>
                     </div>
                   </div>
 
@@ -324,7 +319,7 @@
                 <div class="level">
                   <div class="level-left">
                     <div class="level-item">
-                      <h3 class="is-size-4">Developed chatbot and webhook system</h3>
+                      <h3 class="is-size-4">Chatbot and webhook system</h3>
                     </div>
                   </div>
 
@@ -352,7 +347,7 @@
                 <div class="level">
                   <div class="level-left">
                     <div class="level-item">
-                      <h3 class="is-size-4">Developed credit-card processing translation layer</h3>
+                      <h3 class="is-size-4">Credit-card processing translation layer</h3>
                     </div>
                   </div>
 
@@ -377,7 +372,7 @@
               </article>
             </section>
 
-            <section class="section">
+            <section id="personal-oss-projects" class="section">
               <h2 class="is-size-3 subtitle section-subtitle">Personal projects &amp; OSS Contributions</h2>
 
               <p class="content">
